@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    border: border-box;
+    padding: 0;
+    
+}
+.container{
+    min-height: 100vh;
+    background-color: bisque;
+    padding: 10px;
+
+}
+.list{
+    width: 100%;
+    max-width: 550px;
+    background-color: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 20px;
+    border-radius: 20px;
+    border: transparent;
+}
+.row{
+    height: 5vmin;
+    margin: 10px auto 5px;
+    padding: 5px 10px 4px;
+    display: flex;
+}
+#enter{
+    flex: 1;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#btn{
+    width: 9vmin;
+    border-radius: 10px;
+    background-color: burlywood;
+}
